@@ -1,0 +1,75 @@
+#header{
+    width: 100%;
+    background: url(http://giotaugiave.dsvn.vn/images/BANNER.png) 0 0 repeat-x;
+    height: 134px;
+    padding: 19px 0 0 0;
+}
+.menu{
+    display: flex;
+    list-style-type:none;
+    margin-left: 500px;
+    margin-top: 67px;
+}
+.menu li a{
+   
+    color: white;
+    padding:7px;
+    text-decoration: none;
+    background-color: #333131;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.menu li a:hover{
+    background-color: white;
+    color: black;
+}
+body{
+   background-color: #FFEECC;
+}
+.container{
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    
+}
+#ss{
+    background-color: #A1CCD1;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+ #ss:hover{
+    background-color: #78C1F3;
+    color: black;
+ }
+#tt{
+    background-color: #A1CCD1;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+#tt:hover{
+    background-color: #78C1F3;
+    color: black;
+ }
+ .footer {
+            margin-top: 10px;
+            text-align: center;
+            padding: 10px;
+            background-color: #9BE8D8;
+        }
+        
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .footer p{
+         color: red;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
